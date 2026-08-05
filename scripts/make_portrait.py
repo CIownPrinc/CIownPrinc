@@ -41,7 +41,7 @@ pillow_heif.register_heif_opener()   # lets Image.open() read iPhone .heic/.heif
 
 RAMP = " .`:-=+*cs#%@"     # bright/sparse -> dark/dense; leading space = blank
 COLS = 90                  # below ~88 the face muddies; far above it dominates
-CLAHE_CLIP = 3.8           # higher amplifies skin texture into noise
+CLAHE_CLIP = 3.0           # higher amplifies skin texture into noise
 GAMMA = 1.0                # ramp mapping exponent
 CURVE = 1.7                # the darkening curve — the difference-maker
 CROP_BOTTOM = 0.0          # fraction to trim off the bottom (torso, chair)
@@ -70,7 +70,7 @@ def prep(path, crop=None):
     white = Image.new("RGBA", cut.size, (255, 255, 255, 255))
     gray = np.array(Image.alpha_composite(white, cut).convert("L"))
 
-    gray = cv2.bilateralFilter(gray, 11, 68, 68)      # smooth skin, keep edges
+    gray = cv2.bilateralFilter(gray, 11, 50, 50)      # smooth skin, keep edges
     gray = cv2.createCLAHE(clipLimit=CLAHE_CLIP,
                            tileGridSize=(8, 8)).apply(gray)
     gray = (255.0 * (gray / 255.0) ** CURVE).astype("uint8")

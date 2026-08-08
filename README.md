@@ -28,18 +28,18 @@ Edtech platform that turns studying into a Pokémon-style battle —<br>
 students compete using what they actually know. Making studying fun,<br>
 for once.
 
-**Seat at the Table** &nbsp;·&nbsp; <samp>typescript, javascript, css, html</samp><br>
+**[Seat at the Table](https://github.com/CIownPrinc/SeatAtTheTable)** &nbsp;·&nbsp; <samp>typescript, javascript, css, html</samp><br>
 GTA-inspired browser game: drive around, complete missions, run a<br>
-tycoon empire, and more. Private repo.
+tycoon empire, and more.
 
-**Econopolis** &nbsp;·&nbsp; <samp>html</samp><br>
+**[Econopolis](https://github.com/CIownPrinc/Econopolis)** &nbsp;·&nbsp; <samp>html</samp><br>
 Browser-based economics sim — adjust policy levers and watch the<br>
-simulated society respond. Private repo.
+simulated society respond.
 
-**Webcam Boxing** &nbsp;·&nbsp; <samp>typescript, javascript, css</samp><br>
+**[Webcam Boxing](https://github.com/CIownPrinc/webcamboxing)** &nbsp;·&nbsp; <samp>typescript, javascript, css</samp><br>
 A beginner-friendly course on building a MediaPipe webcam boxing game.<br>
 My first fully-built website, and my first time working with Claude<br>
-Code / Codex. Private repo.
+Code / Codex.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 

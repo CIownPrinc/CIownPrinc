@@ -15,6 +15,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "brotli>=1.2.0",
+    "brotli>=1.2.1",
     "fonttools[woff]>=4.63.0",
 ]

@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -259,7 +259,7 @@ requires-dist = [
     { name = "pillow", specifier = ">=12.3.0" },
     { name = "pillow-heif", specifier = ">=1.5.0" },
     { name = "pymatting", specifier = ">=1.1.15" },
-    { name = "rembg", specifier = ">=2.0.77" },
+    { name = "rembg", specifier = ">=2.0.82" },
 ]
 
 [package.metadata.requires-dev]
@@ -768,7 +768,7 @@ wheels = [
 
 [[package]]
 name = "rembg"
-version = "2.0.77"
+version = "2.0.82"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jsonschema" },
@@ -780,9 +780,9 @@ dependencies = [
     { name = "scipy" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/30/5681ca38c5ccf77c807d7d3302ef334fc426ef6a68fa2f6b222bc48000bc/rembg-2.0.77.tar.gz", hash = "sha256:848cb55027cbd5116105dcb86003a6a4ba66812237ec869c70d2960227256b01", size = 31373, upload-time = "2026-07-18T12:51:09.005Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/81/d8/ff8b2028e2426326eb3751221d88f63c687893e04ff833aef064df602dca/rembg-2.0.82.tar.gz", hash = "sha256:fbf3b29dc6210054eb7914ebc41879883331d3d2fa25b7afd84f0e9c51541197", size = 47408, upload-time = "2026-09-02T12:58:11.125Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/8b/b6b6a7281b3125c25e1977cca6dcee1084caef51f1606089bd5084bc3cdd/rembg-2.0.77-py3-none-any.whl", hash = "sha256:27d5499214385a9255578a44d2db8bd0241d80ebf67aadb4109547ec49bfe71f", size = 46133, upload-time = "2026-07-18T12:51:09.992Z" },
+    { url = "https://files.pythonhosted.org/packages/75/83/123b10f3ea16bb21bd9f8e081e7a3ac600c072e127918e3de3dc191aa688/rembg-2.0.82-py3-none-any.whl", hash = "sha256:f75b60838cbb9c57160f12e6bdbf4a9048969701bff2f1ed9fff78a65ea97741", size = 61893, upload-time = "2026-09-02T12:58:12.105Z" },
 ]
 
 [[package]]
